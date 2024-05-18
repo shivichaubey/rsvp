@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Please Join Us in Celebrating</h1>
+    </header>
+    
+    <div class="container">
+        <div class="photo-gallery">
+            <div class="photo-grid">
+                <img src="photos/photo1.jpg" alt="Photo 1">
+                <img src="photos/photo2.jpg" alt="Photo 2">
+                <img src="photos/photo3.jpg" alt="Photo 3">
+                <img src="photos/photo4.jpg" alt="Photo 1">
+                <img src="photos/photo5.jpg" alt="Photo 2">
+                <img src="photos/photo6.jpg" alt="Photo 3">
+                <img src="photos/photo7.jpg" alt="Photo 1">
+                <img src="photos/photo8.jpg" alt="Photo 2">
+                <img src="photos/photo9.jpg" alt="Photo 3">
+                <!-- Add more photos as needed -->
+            </div>
+        </div>
+
+        <div class="rsvp-form">
+            <h2>RSVP</h2>
+            <form id="rsvpForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" required>
+
+                <label for="attendance">Will you attend?</label>
+                <select id="attendance" name="attendance" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="response"></div>
+        </div>
+
+        <div class="event-info">
+            <h2>Mudita and Nishith's 25th anniversary | Shivi's College Grad | Shefu's HS Grad</h2>
+            <p>Date: July 20, 2024</p>
+            <p>Location: 1425 N Twin Oaks Valley Rd, San Marcos, CA 92069</p>
+            <p>Time: 6:30 PM </p>
+            <p>Dress Code: Indian Formal / Western Formal</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h2>Color Scheme Inspiration</h2>
+        <div class="color-scheme">
+            <img src="photos/color1.jpg" alt="Color 1">
+            <img src="photos/color2.jpg" alt="Color 2">
+            <img src="photos/color3.jpg" alt="Color 3">
+            <img src="photos/color4.jpg" alt="Color 2">
+            <img src="photos/color5.jpg" alt="Color 3">
+            <!-- Add more color scheme photos as needed -->
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
